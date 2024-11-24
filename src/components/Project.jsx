@@ -1,4 +1,9 @@
 import { motion } from "framer-motion";
+import jobsProject from "../assets/images/Screenshot 2024-11-22 191536.png";
+import ResistorImg from "../assets/images/Screenshot 2024-11-22 1915361.png";
+import DarkLight from "../assets/images/darkWhite.png";
+import BankDashboard from "../assets/images/dashboard.png";
+import ShoppingWeb from "../assets/images/shopping-web.png"
 
 const Project = () => {
   return (
@@ -43,143 +48,114 @@ const Project = () => {
           </div>
         ))} */}
       </div>
+
       <div>
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+      <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4">
-            <img
-              src="https://via.placeholder.com/250"
-              width={250}
-              height={250}
-              alt="Project 1"
-              className="mb-6 rounded"
-            />
+            className="w-full lg:w-2/6">
+            <a href="https://shopping-website-bex6oe2np-joseph-peniels-projects.vercel.app/">
+              <img
+                src={ShoppingWeb}
+                width={250}
+                height={250}
+                alt="Project 1"
+                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
           </motion.div>
           <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1 }}
-          className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Project 1</h3>
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">E-Commerce Shopping Website</h3>
             <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
+            A dynamic, fully functional e-commerce website built with a focus on intuitive user experience. Features include a responsive design, interactive product page, and a smooth, mobile-friendly hamburger menu for easy navigation. JavaScript was used to handle menu interactions, enhancing the overall shopping experience.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Node.js
+              JavaScript
             </span>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               CSS
             </span>
           </motion.div>
         </div>
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4">
-            <img
-              src="https://via.placeholder.com/250"
-              width={250}
-              height={250}
-              alt="Project 1"
-              className="mb-6 rounded"
-            />
+            className="w-full lg:w-2/6">
+            <a href="https://dashboard-a6bfduc90-joseph-peniels-projects.vercel.app/">
+              <img
+                src={BankDashboard}
+                width={250}
+                height={250}
+                alt="Project 1"
+                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
           </motion.div>
           <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1 }}
-          className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Project 1</h3>
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Banking DashBoard</h3>
             <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
+              A responsive financial dashboard built with React, featuring a
+              context-driven sidebar for intuitive navigation. The project
+              includes modular components like cards, transactions, reports,
+              budgets, savings, loans, and subscriptions, offering a
+              comprehensive view of financial activities. Designed with clean
+              architecture and a focus on state management using React Context
+              and Reducer for toggling the sidebar.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Node.js
             </span>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               CSS
             </span>
           </motion.div>
         </div>
-
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4">
-            <img
-              src="https://via.placeholder.com/250"
-              width={250}
-              height={250}
-              alt="Project 1"
-              className="mb-6 rounded"
-            />
+            className="w-full lg:w-2/6">
+            {" "}
+            <a href="https://dark-light-screen-akvq8gn4l-joseph-peniels-projects.vercel.app/">
+              <img
+                src={DarkLight}
+                // width={250}
+                // height={250}
+                alt="Project 1"
+                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
           </motion.div>
-          <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1 }}
-          className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Project 1</h3>
-            <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
-            </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Node.js
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
-          </motion.div>
-        </div>
-
-        <div className="mb-8 flex flex-wrap lg:justify-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4">
-            <img
-              src="https://via.placeholder.com/250"
-              width={250}
-              height={250}
-              alt="Project 1"
-              className="mb-6 rounded"
-            />
-          </motion.div>
-          <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1 }}
-          className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Project 1</h3>
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Dark & Light Screen</h3>
             <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
+              A responsive Navbar with seamless light and dark mode toggling,
+              featuring dynamic logo and search bar updates, smooth transitions,
+              and a clean navigation menu built using ReactJS, CSS, and
+              PropTypes for type safety.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
+              HTML
             </span>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Node.js
+              JavaScript
             </span>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               CSS
@@ -187,11 +163,224 @@ const Project = () => {
           </motion.div>
         </div>
 
-        
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <a href="https://job-ou4d3u4f9-joseph-peniels-projects.vercel.app/">
+              <img
+                src={jobsProject}
+                width={250}
+                // height={250}
+                alt="Project"
+                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Jobs Website</h3>
+            <p className="mb-4 text-stone-400">
+              A job management platform built with React, featuring a JSON API
+              for data handling. It allows users to browse, add, edit, and
+              delete job listings with seamless navigation using React Router.
+              The project emphasizes efficient data fetching, dynamic UI
+              updates, and responsive design.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              TailwindCSS
+            </span>
+          </motion.div>
+        </div>
+
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <a href="https://resistor-calculator-p8ktrbtzj-joseph-peniels-projects.vercel.app/">
+              <img
+                src={ResistorImg}
+                alt="Project 1"
+                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Resistor Calculator</h3>
+            <p className="mb-4 text-stone-400">
+              A dynamic resistor calculator built using HTML, CSS, and
+              JavaScript, allowing users to select up to 5 color bands and
+              calculate resistance values with precision, including tolerance
+              for enhanced accuracy and educational insights.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              JavaScript
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              CSS
+            </span>
+          </motion.div>
+        </div>
       </div>
 
-      
-      
+      {/* _____________ui/ux_________________________ */}
+      <div>
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+          className="my-10 text-center text-3xl  text-stone-400">
+          UI/UX Design
+        </motion.div>
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <img
+              src={jobsProject}
+              width={250}
+              height={250}
+              alt="Project 1"
+              className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+            />
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Project 1</h3>
+            <p className="mb-4 text-stone-400">
+              This is a description for Project 1. It highlights the main
+              features and purpose of the project.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Node.js
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              CSS
+            </span>
+          </motion.div>
+        </div>
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <img
+              src={jobsProject}
+              // width={250}
+              // height={250}
+              alt="Project 1"
+              className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+            />
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Project 1</h3>
+            <p className="mb-4 text-stone-400">
+              This is a description for Project 1. It highlights the main
+              features and purpose of the project.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Node.js
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              CSS
+            </span>
+          </motion.div>
+        </div>
+
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <img
+              src={jobsProject}
+              width={250}
+              // height={250}
+              alt="Project"
+              className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+            />
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Jobs Website</h3>
+            <p className="mb-4 text-stone-400">
+              This is a description for Project 1. It highlights the main
+              features and purpose of the project.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              TailwindCSS
+            </span>
+          </motion.div>
+        </div>
+
+        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <img
+              src={ResistorImg}
+              alt="Project 1"
+              className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+            />
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Resistor Calculator</h3>
+            <p className="mb-4 text-stone-400">
+              This is a description for Project 1. It highlights the main
+              features and purpose of the project.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              JavaScript
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              CSS
+            </span>
+          </motion.div>
+        </div>
+      </div>
     </div>
   );
 };
