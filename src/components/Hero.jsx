@@ -14,6 +14,19 @@ const containerVariants = {
     },
   },
 };
+
+const buttonVariants = (duration) => ({
+  initial: { y: -10 },
+  animate: {
+    y: [10, -10],
+    transition: {
+      duration: duration,
+      ease: "linear",
+      repeat: Infinity,
+      repeatType: "reverse",
+    },
+  },
+});
 const childVariants = {
   hidden: { opacity: 0, x: -100 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
@@ -70,11 +83,13 @@ const Hero = () => {
               extraordinary together!
             </motion.p>
             <motion.a
-              variants={childVariants}
-              href="/resume.pdf"
+              initial="intial"
+              animate="animate"
+              variants= {buttonVariants(1)}
+              href="/public/Joseph_Peniel - Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download
+              download="Joseph_Peniel - Resume.pdf"
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
               {" "}
               Download Resume
