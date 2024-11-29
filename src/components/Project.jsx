@@ -1,11 +1,11 @@
 
 import { motion } from "framer-motion";
-import jobsProject from "../assets/images/Screenshot 2024-11-22 191536.png";
+import jobsProject from "/assets/images/Screenshot 2024-11-22 191536.png";
 
-import ResistorImg from "../assets/images/Screenshot 2024-11-22 1915361.png";
-import DarkLight from "../assets/images/darkWhite.png";
-import BankDashboard from "../assets/images/dashboard.png";
-import ShoppingWeb from "../assets/images/shopping-web.png";
+import ResistorImg from "/assets/images/Screenshot 2024-11-22 1915361.png"; 
+import DarkLight from "/assets/images/darkWhite.png";
+import BankDashboard from "/assets/images/dashboard.png";
+import ShoppingWeb from "/assets/images/shopping-web.png";
 import Lorem from "./Carousel/Lorem";
 import Craftsvillage from "./Carousel/Craftsvillage";
 

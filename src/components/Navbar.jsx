@@ -1,4 +1,4 @@
-import logo from "../assets/images/Black White Minimalist Logo.png";
+import logo from "/assets/images/Black White Minimalist Logo.png";
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 
 

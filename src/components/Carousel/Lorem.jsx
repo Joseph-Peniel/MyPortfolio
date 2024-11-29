@@ -16,12 +16,14 @@ const Lorem = () => {
     
   };
 
+  
+
   return (
     <div className="carousel-container rounded ">
       <Slider {...settings} >
         <div>
           
-          <img  className="rounded" src="/src/assets/images/ux-LoremSprint.png" alt="Slide 1" />
+          <img  className="rounded" src="/assets/images/ux-LoremSprint.png" alt="Slide 1" />
         </div>
         
         <div >
@@ -32,20 +34,15 @@ const Lorem = () => {
 
          <div >
           <video className=" rounded" controls  controlsList="nodownload  noremoteplayback">
-            <source src="/src/assets/videos/lorem app.mp4" type="video/mp4"/>
+            <source src="/assets/videos/lorem app.mp4" type="video/mp4"/>
           </video>
         </div>
         
         <div >
-          <img className=" rounded" src="/src/assets/images/ux-LoremSprint.png" alt="Slide 3"   
+          <img className=" rounded" src="/assets/images/ux-LoremSprint.png" alt="Slide 3"   
           />
         </div>
         
-        <div >
-          <video className=" rounded" controlsList="nodownload  noremoteplayback" controls >
-            <source src="/src/assets/videos/lorem app.mp4" type="video/mp4"/>
-          </video>
-        </div>
       </Slider>
     </div>
   );

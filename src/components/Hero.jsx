@@ -1,4 +1,4 @@
-import profilePhoto from "../assets/images/WhatsApp Image 2024-11-21 at 15.37.50.jpeg";
+import profilePhoto from "/assets/images/WhatsApp Image 2024-11-21 at 15.37.50.jpeg";
 
 import { motion } from "framer-motion";
 

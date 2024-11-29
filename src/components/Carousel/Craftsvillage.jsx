@@ -21,12 +21,12 @@ const Craftsvillage = () => {
      
       <div>
           <video controls muted  controlsList className="rounded">
-            <source src="/src/assets/videos/craftsvillageApp.mp4"/>
+            <source src="/assets/videos/lorem app.mp4"/>
           </video>
         </div>
         <div>
           <video controls muted controlsList className="rounded">
-            <source src="/src/assets/videos/craftsvillageApp.mp4"/>
+            <source src="/assets/videos/craftsvillageApp.mp4"/>
           </video>
         </div>
         
