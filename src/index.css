@@ -27,3 +27,53 @@
   scrollbar-width: thin; /* For Firefox */
   scrollbar-color: rgba(128, 128, 128, 0.6) transparent;
 }
+
+.carousel-container {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  /* Adjust the height of the carousel */
+  /* position: relative; */
+  
+  background-color: #000000;
+}
+
+.slick-slide img,
+.slick-slide video {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Ensures the video covers the entire container */
+  object-position: center;	
+}
+
+
+
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: white; /* Set color for the arrows */
+  z-index: 1; /* Ensure arrows appear above the carousel */
+}
+
+.slick-prev {
+  left: 10px; /* Adjust for left arrow positioning */
+}
+
+.slick-next {
+  right: 10px; /* Adjust for right arrow positioning */
+}
+
+.slick-prev, .slick-next {
+  top: 50%; /* Position the arrows vertically centered */
+  transform: translateY(-50%);
+}
+
+/* Center navigation dots */
+.slick-dots {
+  bottom: 20px; /* Position the dots */
+  text-align: center; /* Center the dots horizontally */
+}
+
+.slick-dots li button {
+  background-color: white; /* Make dots visible */
+}

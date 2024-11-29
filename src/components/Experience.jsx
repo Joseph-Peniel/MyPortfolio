@@ -267,7 +267,7 @@ const Experience = () => {
                 ReactJS & JavaScript Projects
               </h2>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   E-Commerce Website: Designed and developed a fully functional
                 </h3>{" "}
@@ -275,40 +275,40 @@ const Experience = () => {
                 integrating features like product listings, shopping carts, and
                 responsive layouts to provide a seamless user experience. Movie
                 App Development:
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   Movie App Development:
                 </h3>
                 Built a dynamic movie app with functionality for fetching and
                 displaying movie data from APIs, showcasing interactive features
                 like search and filtering.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   AXA Mansard Website Clone:{" "}
                 </h3>
                 Replicated the AXA Mansard website to strengthen frontend
                 development skills and understand corporate website structures.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">Netflix Clone:</h3>
                 Replicated the Netflix website as a personal project, focusing
                 on UI/UX and dynamic data integration to refine frontend
                 development skills.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">Netflix Clone:</h3>
                 Replicated the Netflix website as a personal project, focusing
                 on UI/UX and dynamic data integration to refine frontend
                 development skills.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   Styling & Frameworks:
                 </h3>
@@ -316,21 +316,21 @@ const Experience = () => {
                 for rapid, utility-first design. Focused on crafting engaging
                 user experiences using Framer, and interactive animations with
                 GSAP.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">Version Control:</h3>
                 Leveraged Git and GitHub for efficient code management and
                 collaboration.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   Leveraged Git and GitHub for efficient Web Deployment:
                 </h3>
                 Deployed applications on platforms like Vercel, ensuring
                 production-readiness and troubleshooting build issues.
-              </p>
+              </div>
             </motion.div>
           </div>
 
@@ -358,15 +358,15 @@ const Experience = () => {
 
               
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                 E-Learning Website:
                 </h3>{" "}
                 Designed and developed a comprehensive e-learning platform,
                 integrating responsive layouts and engaging animations.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   Real Estate Website Design:{" "}
                 </h3>
@@ -374,9 +374,9 @@ const Experience = () => {
                 user-friendly features like property listings, search filters,
                 and virtual tours. Focused on delivering a sleek, professional
                 look to meet industry standards while ensuring responsiveness.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   Craft Village Mobile App:{" "}
                 </h3>
@@ -385,9 +385,9 @@ const Experience = () => {
                 Created intuitive user flows and visually engaging interfaces to
                 connect artisans with potential customers and showcase their
                 crafts effectively.
-              </p>
+              </div>
 
-              <p className="mb-4 text-stone-400">
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
                   NGO Website Design:
                 </h3>
@@ -396,7 +396,7 @@ const Experience = () => {
                 enhance engagement with the organization's mission. Ensured the
                 design was adaptable across devices, emphasizing clarity and
                 functionality for diverse audiences.
-              </p>
+              </div>
             </motion.div>
           </div>
         </div>
