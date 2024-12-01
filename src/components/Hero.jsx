@@ -86,7 +86,7 @@ const Hero = () => {
               initial="intial"
               animate="animate"
               variants= {buttonVariants(1)}
-              href="/public/Joseph_Peniel - Resume.pdf"
+              href="/Joseph_Peniel - Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Joseph_Peniel - Resume.pdf"
