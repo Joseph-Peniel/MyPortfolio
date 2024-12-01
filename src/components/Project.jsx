@@ -228,10 +228,10 @@ const Project = () => {
             <a href="#">
               <img
                 src={LoremSprint}
-                width={250}
+                // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[290px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[240px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -254,7 +254,7 @@ const Project = () => {
         </div>
 
 
-        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -307,7 +307,7 @@ const Project = () => {
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6">
            
- <Lorem />
+ <Lorem className="h-[230px]"/>
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -370,7 +370,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6  h-[290px] rounded"
+                className="w-full md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 h-[230px] rounded"
               />
             </a>
           </motion.div>

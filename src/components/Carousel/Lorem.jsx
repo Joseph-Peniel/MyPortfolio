@@ -23,7 +23,7 @@ const Lorem = () => {
       <Slider {...settings} >
         <div>
           
-          <img  className="rounded" src="/assets/images/ux-LoremSprint.png" alt="Slide 1" />
+          <img  className="rounded " src="/assets/images/ux-LoremSprint.png" alt="Slide 1" />
         </div>
         
         <div >
