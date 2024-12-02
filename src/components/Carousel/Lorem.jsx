@@ -23,7 +23,7 @@ const Lorem = () => {
       <Slider {...settings} >
         <div>
           
-          <img  className="rounded " src="/assets/images/ux-LoremSprint.png" alt="Slide 1" />
+          <img  className="rounded h-[200px] " src="/assets/images/ux-LoremSprint.png" alt="Slide 1" />
         </div>
         
         <div >
@@ -33,7 +33,7 @@ const Lorem = () => {
         </div>
 
          <div >
-          <video className=" rounded" controls  controlsList="nodownload  noremoteplayback">
+          <video className=" rounded h-[200px]" controls  controlsList="nodownload  noremoteplayback">
             <source src="/assets/videos/lorem app.mp4" type="video/mp4"/>
           </video>
         </div>

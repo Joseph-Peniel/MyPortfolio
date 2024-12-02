@@ -1,23 +1,17 @@
-
 import { motion } from "framer-motion";
 import jobsProject from "/assets/images/Screenshot 2024-11-22 191536.png";
 
-import ResistorImg from "/assets/images/Screenshot 2024-11-22 1915361.png"; 
-import LoremSprint from "/assets/images/ux-LoremSprint.png"
-import NGO from "/assets/images/ngo.jpg"
+import ResistorImg from "/assets/images/Screenshot 2024-11-22 1915361.png";
+import LoremSprint from "/assets/images/ux-LoremSprint.png";
+import NGO from "/assets/images/ngo.jpg";
 import DarkLight from "/assets/images/darkWhite.png";
 import BankDashboard from "/assets/images/dashboard.png";
 import ShoppingWeb from "/assets/images/shopping-web.png";
 import Lorem from "./Carousel/Lorem";
 import Craftsvillage from "./Carousel/Craftsvillage";
 
-
-
-
 const Project = () => {
-  
- 
- return (
+  return (
     <div className="pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -151,7 +145,7 @@ const Project = () => {
                 src={DarkLight}
                 // width={250}
                 // height={250}
-                alt="Project 1"
+                alt="Project "
                 className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
               />
             </a>
@@ -218,7 +212,6 @@ const Project = () => {
           </motion.div>
         </div>
 
-
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -231,7 +224,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[240px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[200px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -242,7 +235,11 @@ const Project = () => {
             className="w-full max-w-xl lg:w-3/4">
             <h3 className="mb-2 font-semibold text-2xl">Lorem Sprint</h3>
             <p className="mb-4 text-stone-400">
-            Conceptualized and designed a mobile app for Craft Village, inspired by personal experience working in the organization. Created intuitive user flows and visually engaging interfaces to connect artisans with potential customers and showcase their crafts effectively.
+              Conceptualized and designed a mobile app for Craft Village,
+              inspired by personal experience working in the organization.
+              Created intuitive user flows and visually engaging interfaces to
+              connect artisans with potential customers and showcase their
+              crafts effectively.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               ReactJS
@@ -251,7 +248,10 @@ const Project = () => {
               TailwindCSS
             </span>
           </motion.div>
+
+
         </div>
+
 
 
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
@@ -306,17 +306,14 @@ const Project = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6">
-           
- <Lorem className="h-[230px]"/>
+            <Lorem />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
             className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">
-              E-Learning Website
-            </h3>
+            <h3 className="mb-2 font-semibold text-2xl">E-Learning Website</h3>
             <p className="mb-4 text-stone-400">
               I designed and developed an e-learning website where students can
               seamlessly search for and study a wide range of technology and art
@@ -327,24 +324,25 @@ const Project = () => {
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
-
           </motion.div>
         </div>
 
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
-<motion.div
+          <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full h-auto lg:w-2/6">
-            <Craftsvillage /> 
-           </motion.div>
+            <Craftsvillage />
+          </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
             className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Craftsvillage Mobile App</h3>
+            <h3 className="mb-2 font-semibold text-2xl">
+              Craftsvillage Mobile App
+            </h3>
             <p className="mb-4 text-stone-400">
               This is a description for Project 1. It highlights the main
               features and purpose of the project.
@@ -352,11 +350,8 @@ const Project = () => {
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
-            
-          </motion.div> 
+          </motion.div>
         </div>
-
-        
 
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
@@ -370,7 +365,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 h-[230px] rounded"
+                className="w-full md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 h-[200px] rounded"
               />
             </a>
           </motion.div>
@@ -381,12 +376,16 @@ const Project = () => {
             className="w-full max-w-xl lg:w-3/4">
             <h3 className="mb-2 font-semibold text-2xl">BlueSpace</h3>
             <p className="mb-4 text-stone-400">
-            Designed a fully responsive website for a non-profit NGO, focusing on accessibility and user-friendly navigation to enhance engagement with the organization's mission. Ensured the design was adaptable across devices, emphasizing clarity and functionality for diverse audiences.
+              Designed a fully responsive website for a non-profit NGO, focusing
+              on accessibility and user-friendly navigation to enhance
+              engagement with the organization's mission. Ensured the design was
+              adaptable across devices, emphasizing clarity and functionality
+              for diverse audiences.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
-            </motion.div>
+          </motion.div>
         </div>
 
         {/* <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
@@ -452,10 +451,7 @@ const Project = () => {
             </span>
           </motion.div>
         </div> */}
-
       </div>
-
-      
     </div>
   );
 };
