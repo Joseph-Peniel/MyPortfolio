@@ -38,10 +38,9 @@
   background-color: #000000;
 }
 
-.slick-slide img,
+
 .slick-slide video {
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */ /* Ensures the video covers the entire container */
+  /* Full height */ /* Ensures the video covers the entire container */
   object-position: center;	
 }
 

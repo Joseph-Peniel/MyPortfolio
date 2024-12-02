@@ -224,7 +224,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[200px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -300,7 +300,7 @@ const Project = () => {
           UI/UX Design
         </motion.div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-16 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -365,7 +365,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 h-[200px] rounded"
+                className="w-full md:w-full md:aspect-square lg:h-[220px] lg:w-[800px] mb-6 h-[200px] rounded"
               />
             </a>
           </motion.div>

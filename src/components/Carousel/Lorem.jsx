@@ -13,36 +13,29 @@ const Lorem = () => {
     slidesToScroll: 1, // Number of slides to scroll at once
     autoplay: true,
     autoplaySpeed: 2000,
-    
   };
-
-  
 
   return (
     <div className="carousel-container rounded ">
-      <Slider {...settings} >
+      <Slider {...settings}>
         <div>
-          
-          <img  className="rounded h-[200px] " src="/assets/images/ux-LoremSprint.png" alt="Slide 1" />
+          <img
+            className="rounded w-full h-[220px] "
+            src="/assets/images/ux-LoremSprint.png"
+            alt="Slide 1"
+          />
         </div>
-        
-        <div >
-          <video className=" rounded" controls  controlsList="nodownload  noremoteplayback">
-            <source src="/src/assets/videos/lorem app.mp4" type="video/mp4"/>
+
+
+        <div>
+          <video
+            className=" rounded h-full object-center"
+            controls
+            controlsList="nodownload  noremoteplayback">
+            <source src="/assets/videos/lorem app.mp4" type="video/mp4" />
           </video>
         </div>
 
-         <div >
-          <video className=" rounded h-[200px]" controls  controlsList="nodownload  noremoteplayback">
-            <source src="/assets/videos/lorem app.mp4" type="video/mp4"/>
-          </video>
-        </div>
-        
-        <div >
-          <img className=" rounded" src="/assets/images/ux-LoremSprint.png" alt="Slide 3"   
-          />
-        </div>
-        
       </Slider>
     </div>
   );
