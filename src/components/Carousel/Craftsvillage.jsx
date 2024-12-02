@@ -19,13 +19,14 @@ const Craftsvillage = () => {
     <div className="carousel-container rounded">
       <Slider {...settings} >
      
-      <div>
-          <video controls muted  controlsList className="rounded">
+      
+        <div>
+          <video controls muted controlsList className=" rounded h-full object-center">
             <source src="/assets/videos/craftsvillageApp.mp4"/>
           </video>
         </div>
         <div>
-          <video controls muted controlsList className="rounded">
+          <video controls muted controlsList className=" rounded ">
             <source src="/assets/videos/craftsvillageApp.mp4"/>
           </video>
         </div>

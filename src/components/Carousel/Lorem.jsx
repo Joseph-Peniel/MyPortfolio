@@ -36,6 +36,14 @@ const Lorem = () => {
           </video>
         </div>
 
+        <div>
+          <img
+            className="rounded w-full h-[220px] "
+            src="/assets/images/Lorem-mockup.jpg"
+            alt="Slide 1"
+          />
+        </div>
+
       </Slider>
     </div>
   );
