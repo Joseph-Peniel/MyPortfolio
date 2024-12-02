@@ -432,13 +432,13 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px] ">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6 ">
-            <a href="#">
+            <a href="">
               <img
                 src={MonsterApp}
                 // width={250}
