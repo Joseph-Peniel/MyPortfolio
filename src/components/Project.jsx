@@ -3,6 +3,10 @@ import jobsProject from "/assets/images/Screenshot 2024-11-22 191536.png";
 
 import ResistorImg from "/assets/images/Screenshot 2024-11-22 1915361.png";
 import LoremSprint from "/assets/images/ux-LoremSprint.png";
+
+import MonsterApp from "/assets/images/monster-CAR-APP.jpg";
+
+import workSession from "/assets/images/work-session.jpg";
 import NGO from "/assets/images/ngo.jpg";
 import DarkLight from "/assets/images/darkWhite.png";
 import BankDashboard from "/assets/images/dashboard.png";
@@ -218,6 +222,46 @@ const Project = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6">
+            <a href="https://work-sesson-gsap.vercel.app/">
+              <img
+                src={workSession}
+                // width={250}
+                // height={250}
+                alt="Project"
+                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Work Section Using GSAP</h3>
+            <p className="mb-4 text-stone-400">
+              Interactive project showcasing our work through smooth scroll animations using GSAP and ScrollTrigger, featuring dynamic image transitions, pinning effects, and a 'Book a demo' call-to-action for an engaging user experience.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              CSS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              GSAP
+            </span>
+          </motion.div>
+
+
+        </div>
+
+
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
             <a href="#">
               <img
                 src={LoremSprint}
@@ -332,32 +376,6 @@ const Project = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full h-auto lg:w-2/6">
-            <Craftsvillage />
-          </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">
-              Craftsvillage Mobile App
-            </h3>
-            <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
-            </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Figma
-            </span>
-          </motion.div>
-        </div>
-
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
             className="w-full lg:w-2/6 ">
             <a href="#">
               <img
@@ -387,6 +405,65 @@ const Project = () => {
             </span>
           </motion.div>
         </div>
+
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full h-auto lg:w-2/6">
+            <Craftsvillage />
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">
+              Craftsvillage Mobile App
+            </h3>
+            <p className="mb-4 text-stone-400">
+              This is a description for Project 1. It highlights the main
+              features and purpose of the project.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Figma
+            </span>
+          </motion.div>
+        </div>
+
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6 ">
+            <a href="#">
+              <img
+                src={MonsterApp}
+                // width={250}
+                // height={250}
+                alt="Project"
+                className="w-full md:w-full md:aspect-square lg:h-[220px] lg:w-[800px] mb-6 h-[200px] rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">Monster App Design</h3>
+            <p className="mb-4 text-stone-400">
+            A sleek car app designed in Figma that allows clients to explore and purchase cars seamlessly. Features an interactive color switch test, enabling users to preview and customize car colors in-app for a personalized shopping experience.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Figma
+            </span>
+          </motion.div>
+        </div>
+
+        
 
         {/* <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
