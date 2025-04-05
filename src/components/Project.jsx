@@ -67,7 +67,7 @@ const Project = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6">
-            <a href="https://work-sesson-gsap.vercel.app/">
+            <a href="https://apple-app-clone-khaki.vercel.app/">
               <img
                 src={iphoneApp}
                 // width={250}
