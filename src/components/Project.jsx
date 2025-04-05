@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import jobsProject from "/assets/images/Screenshot 2024-11-22 191536.png";
 
+import iphoneApp from "../../public/assets/images/IphoneApp.png"
+
 import ResistorImg from "/assets/images/Screenshot 2024-11-22 1915361.png";
 import LoremSprint from "/assets/images/ux-LoremSprint.png";
 
@@ -65,6 +67,99 @@ const Project = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6">
+            <a href="https://work-sesson-gsap.vercel.app/">
+              <img
+                src={iphoneApp}
+                // width={250}
+                // height={250}
+                alt="Project"
+                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">
+              Interactive 3D iPhone 15 Pro
+            </h3>
+            <p className="mb-4 text-stone-400">
+              This project demonstrates an engaging user experience using React,
+              React Three Fiber, and GSAP to create an interactive and dynamic
+              showcase of the iPhone 15 Pro. Users can explore a 3D model of the
+              iPhone, with customizable colors and detailed lighting effects.
+              The Hero section adapts to different screen sizes, swapping
+              between high-definition and mobile-friendly videos, while the
+              call-to-action (CTA) buttons are animated with smooth GSAP
+              transitions. The scene is enhanced with various spotlights and
+              lightformers for realistic lighting, contributing to a visually
+              captivating experience.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              TailwindCSS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              GSAP
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Threejs
+            </span>
+          </motion.div>
+        </div>
+
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
+            <a href="https://work-sesson-gsap.vercel.app/">
+              <img
+                src={workSession}
+                // width={250}
+                // height={250}
+                alt="Project"
+                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">
+              Work Section Using GSAP
+            </h3>
+            <p className="mb-4 text-stone-400">
+              Interactive project showcasing our work through smooth scroll
+              animations using GSAP and ScrollTrigger, featuring dynamic image
+              transitions, pinning effects, and a 'Book a demo' call-to-action
+              for an engaging user experience.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              CSS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              GSAP
+            </span>
+          </motion.div>
+        </div>
+
+        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="w-full lg:w-2/6">
             <a href="https://shopping-website-bex6oe2np-joseph-peniels-projects.vercel.app/">
               <img
                 src={ShoppingWeb}
@@ -98,6 +193,7 @@ const Project = () => {
             </span>
           </motion.div>
         </div>
+
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -114,6 +210,7 @@ const Project = () => {
               />
             </a>
           </motion.div>
+
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
@@ -137,6 +234,7 @@ const Project = () => {
             </span>
           </motion.div>
         </div>
+
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -222,46 +320,6 @@ const Project = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="w-full lg:w-2/6">
-            <a href="https://work-sesson-gsap.vercel.app/">
-              <img
-                src={workSession}
-                // width={250}
-                // height={250}
-                alt="Project"
-                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
-              />
-            </a>
-          </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Work Section Using GSAP</h3>
-            <p className="mb-4 text-stone-400">
-              Interactive project showcasing our work through smooth scroll animations using GSAP and ScrollTrigger, featuring dynamic image transitions, pinning effects, and a 'Book a demo' call-to-action for an engaging user experience.
-            </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              GSAP
-            </span>
-          </motion.div>
-
-
-        </div>
-
-
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
             <a href="#">
               <img
                 src={LoremSprint}
@@ -292,11 +350,7 @@ const Project = () => {
               TailwindCSS
             </span>
           </motion.div>
-
-
         </div>
-
-
 
         <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
@@ -455,15 +509,16 @@ const Project = () => {
             className="w-full max-w-xl lg:w-3/4">
             <h3 className="mb-2 font-semibold text-2xl">Monster App Design</h3>
             <p className="mb-4 text-stone-400">
-            A sleek car app designed in Figma that allows clients to explore and purchase cars seamlessly. Features an interactive color switch test, enabling users to preview and customize car colors in-app for a personalized shopping experience.
+              A sleek car app designed in Figma that allows clients to explore
+              and purchase cars seamlessly. Features an interactive color switch
+              test, enabling users to preview and customize car colors in-app
+              for a personalized shopping experience.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
           </motion.div>
         </div>
-
-        
 
         {/* <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
           <motion.div
