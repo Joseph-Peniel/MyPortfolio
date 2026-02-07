@@ -17,7 +17,7 @@ const Contact = () => {
           initial={{ opacity: 1, x: -100 }}
           transition={{ duration: 0.5 }}
           className="my-4">
-          25, Aderibigbe , Ikate Surulere LG- 100281
+           Surulere LG- 100281
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}

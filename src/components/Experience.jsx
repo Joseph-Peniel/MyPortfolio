@@ -12,7 +12,7 @@ const Experience = () => {
       </motion.h2>
       <div>
         <div>
-          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+          <div className="w-full mb-12 lg:flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -54,7 +54,7 @@ const Experience = () => {
             </motion.div>
           </div>
 
-          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+          <div className="w-full mb-12 lg:flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -85,7 +85,7 @@ const Experience = () => {
             </motion.div>
           </div>
 
-          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+          <div className="w-full mb-12 lg:flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -114,7 +114,7 @@ const Experience = () => {
             </motion.div>
           </div>
 
-          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+          <div className="w-full mb-12 lg:flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}

@@ -69,17 +69,17 @@ const Hero = () => {
             </motion.span>
             <motion.p
               variants={childVariants}
-              className=" my-8 text-lg leading-relaxed tracking-tighter sm:text-left tracking-[0.9px]">
+              className=" my-8 text-lg leading-relaxed tracking-tighter text-center lg:text-left tracking-[0.9px]">
               Hello! I’m Joseph Peniel, a dedicated Frontend Developer with
               experience building production-ready web applications using React,
               TypeScript, JavaScript, HTML, and modern CSS frameworks (Tailwind,
               SCSS). Skilled in component-driven architecture, state management
-              (Zustand, UseContext), API integration, and form validation (Formik, Yup).
-              Proficient in performance optimization, reusable UI systems,
-              animations (GSAP, Framer Motion), accessibility best practices, and cross-browser
-              compatibility. Focused on delivering scalable, user-friendly
-              frontend solutions through effective collaboration and clean,
-              maintainable code.
+              (Zustand, UseContext), API integration, and form validation
+              (Formik, Yup). Proficient in performance optimization, reusable UI
+              systems, animations (GSAP, Framer Motion), accessibility best
+              practices, and cross-browser compatibility. Focused on delivering
+              scalable, user-friendly frontend solutions through effective
+              collaboration and clean, maintainable code.
             </motion.p>
             <motion.a
               initial="intial"

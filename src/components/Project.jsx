@@ -23,7 +23,7 @@ const Project = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl">
+        className="mt-20 text-center text-4xl">
         Projects
       </motion.h2>
       <div>
@@ -35,7 +35,7 @@ const Project = () => {
           Frontend
         </motion.div>
         {/* {Projects.map((project, index) => (
-          <div key="index" className="mb-8 flex items-center lg:justify-center">
+          <div key="index" className="mb-8 lg:flex items-center lg:justify-center">
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
@@ -61,7 +61,7 @@ const Project = () => {
       </div>
 
       <div>
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center justify-start  lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -73,7 +73,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover h-full lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -81,7 +81,7 @@ const Project = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4">
+            className="w-full lg:w-3/4">
             <h3 className="mb-2 font-semibold text-2xl">CloseBuy</h3>
             <p className="mb-4 text-stone-400">
               Built a full-featured e-commerce platform (Closebuy) with product
@@ -112,7 +112,7 @@ const Project = () => {
             </span>
           </motion.div>
         </div>
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -163,7 +163,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -205,7 +205,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -245,7 +245,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -286,7 +286,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -327,7 +327,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -365,7 +365,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -403,7 +403,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -446,16 +446,16 @@ const Project = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5 }}
-            className="my-10 text-center text-3xl  text-stone-400 lg:ml-14">
+            className="mt-16 mb-10 text-center text-3xl  text-stone-400 lg:ml-14">
             UI/UX Design
           </motion.div>
         </div>
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded">
+            className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-20 lg:mb-6 rounded">
             <Lorem />
           </motion.div>
           <motion.div
@@ -477,7 +477,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -512,12 +512,12 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded">
+            className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-20 lg:mb-6 rounded">
             <Craftsvillage />
           </motion.div>
           <motion.div
@@ -538,7 +538,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+        <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
