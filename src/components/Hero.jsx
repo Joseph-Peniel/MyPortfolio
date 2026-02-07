@@ -38,7 +38,7 @@ const Hero = () => {
     <div className="pb-4 lg:mb-36 ">
       <div className="flex flex-wrap lg:flex-row-reverse items-center">
         <div className="w-[600px] lg:w-1/2">
-          <div className="flex justify-center lg:ml-[30px] md:items-center">
+          <div className="flex justify-center lg:ml-[40px] md:items-center">
             <motion.img
               className="w-[500px] border border-stone-900 rounded-3xl"
               src={profilePhoto}
@@ -56,7 +56,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             variants={containerVariants}
-            className="flex flex-col items-center lg:items-start mt-10 lg:pl-9">
+            className="flex flex-col items-center lg:items-start mt-10 lg:pl-7">
             <motion.h2
               variants={childVariants}
               className="pb-2 text-4xl lg:text-5xl lg:mb-2 leading-[20px] tracking-[0.4px]">
