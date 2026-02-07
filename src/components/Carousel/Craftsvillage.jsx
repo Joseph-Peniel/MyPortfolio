@@ -16,21 +16,35 @@ const Craftsvillage = () => {
   };
 
   return (
-    <div className="carousel-container rounded">
-      <Slider {...settings} >
-     
-      
+    <div className="w-full rounded w-full bg-black">
+      <Slider
+        {...settings}
+        className=" h-[300px]">
         <div>
-          <video controls muted controlsList className=" rounded h-full object-center">
-            <source src="/assets/videos/craftsvillageApp.mp4"/>
+          <video
+            controls
+            muted
+            controlsList
+            className="rounded max-w-[440px] h-[300px] ">
+            <source
+              src="/assets/videos/craftsvillageApp.mp4"
+              className="w-full object-cover "
+            />
           </video>
         </div>
         <div>
-          <video controls muted controlsList className=" rounded ">
-            <source src="/assets/videos/craftsvillageApp.mp4"/>
+          <video
+            controls
+            muted
+            controlsList
+            className="max-w-[440px] 
+             h-[300px] rounded">
+            <source
+              src="/assets/videos/craftsvillageApp.mp4"
+              className="w-full object-cover"
+            />
           </video>
         </div>
-        
       </Slider>
     </div>
   );

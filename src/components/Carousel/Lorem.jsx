@@ -16,34 +16,38 @@ const Lorem = () => {
   };
 
   return (
-    <div className="carousel-container rounded ">
-      <Slider {...settings}>
+    <div className="rounded w-full ">
+      <Slider
+        {...settings}
+        className=" h-[300px]">
         <div>
           <img
-            className="rounded w-full h-[220px] "
+            className="w-full rounded object-cover h-[280px]"
             src="/assets/images/ux-LoremSprint.png"
             alt="Slide 1"
           />
         </div>
 
-
         <div>
           <video
-            className=" rounded h-full object-center"
+            className="h-full rounded object-center h-[280px] bg-black"
             controls
             controlsList="nodownload  noremoteplayback">
-            <source src="/assets/videos/lorem app.mp4" type="video/mp4" />
+            <source
+              src="/assets/videos/lorem app.mp4"
+              type="video/mp4"
+              className="w-full h-[280px] object-cover rounded"
+            />
           </video>
         </div>
 
         <div>
           <img
-            className="rounded w-full h-[220px] "
+            className="rounded object-cover h-[280px]"
             src="/assets/images/Lorem-mockup.jpg"
             alt="Slide 1"
           />
         </div>
-
       </Slider>
     </div>
   );

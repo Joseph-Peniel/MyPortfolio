@@ -11,279 +11,169 @@ const Experience = () => {
         Experience
       </motion.h2>
       <div>
-        {/* {Experience.map((experience, index) => (
-          <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>
-            <div className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">{experience.year}</p>
-            </div>
-            <div className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                {experience.role}
-                <span className="text-sm text-stone-500">
-                  {experience.company}
-                </span>
-              </h3>
-              <p className="mb-4 text-stone-400">{experience.description}</p>
-              {Experience.technology.map((tech, index) => (
-                <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone 300" key={index}>
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))} */}
         <div>
-          {/* <div className="mb-8 flex flex-wrap lg:justify-center">
+          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2022 - 2023</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                Software Developer
-                <span className="text-sm text-stone-500"> at TechCorp</span>
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Worked on building scalable web applications, enhancing user
-                interfaces, and improving performance across the company's core
-                products.
+              <p className="mb-2 text-md text-center text-stone-400">
+                2024-2025
               </p>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                ReactJS
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Node.js
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                TailwindCSS
-              </span>
-            </motion.div>
-          </div>
-
-          <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              i
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2021 - 2022</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                Frontend Engineer
-                <span className="text-sm text-stone-500">
-                  {" "}
-                  at WebSolutions Inc.
-                </span>
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Designed and implemented intuitive UI components for various
-                client projects while maintaining code quality and
-                responsiveness.
-              </p>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Angular
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                TypeScript
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                SCSS
-              </span>
-            </motion.div>
-          </div>
-
-          <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2020 - 2021</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                UI/UX Designer
-                <span className="text-sm text-stone-500">
-                  {" "}
-                  at Creative Studios
-                </span>
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Focused on creating seamless user experiences, wireframes, and
-                prototypes while collaborating with development teams to ensure
-                design consistency.
-              </p>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Figma
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Adobe XD
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                HTML/CSS
-              </span>
-            </motion.div>
-          </div>
-          <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2022 - 2023</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                Software Developer
-                <span className="text-sm text-stone-500"> at TechCorp</span>
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Worked on building scalable web applications, enhancing user
-                interfaces, and improving performance across the company's core
-                products.
-              </p>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                ReactJS
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Node.js
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                TailwindCSS
-              </span>
-            </motion.div>
-          </div>
-
-          <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2021 - 2022</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                Frontend Engineer
-                <span className="text-sm text-stone-500">
-                  {" "}
-                  at WebSolutions Inc.
-                </span>
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Designed and implemented intuitive UI components for various
-                client projects while maintaining code quality and
-                responsiveness.
-              </p>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Angular
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                TypeScript
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                SCSS
-              </span>
-            </motion.div>
-          </div> */}
-
-          {/* <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2020 - 2021</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 font-semibold">
-                UI/UX Designer
-                <span className="text-sm text-stone-500">
-                  {" "}
-                  at Creative Studios
-                </span>
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Focused on creating seamless user experiences, wireframes, and
-                prototypes while collaborating with development teams to ensure
-                design consistency.
-              </p>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Figma
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                Adobe XD
-              </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-                HTML/CSS
-              </span>
-            </motion.div>
-          </div> */}
-        </div>
-        <div>
-          <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2024</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
+              className="w-full max-w-xl lg:w-2/4">
               <h2 className="mb-2 text-lg font-semibold text-slate-200">
-                ReactJS & JavaScript Projects
+                E-Commerce Website: Designed and developed a fully functional
               </h2>
 
               <div className="mb-4 text-stone-400">
+                <h3 className="font-medium text-stone-300"></h3> Junior Frontend
+                Developer — Closebuy (E-commerce Platform) Built a full-featured
+                e-commerce platform (Closebuy) with product discovery, detailed
+                product views, cart and checkout flows, dynamic quantity
+                management, and real-time subtotal and pricing calculations.
+                Implemented robust global state management using Zustand to
+                manage cart items, selected products, quantities, discounts,
+                persistence across pages and reloads, and synchronized UI
+                updates. Developed reusable, accessible UI components (product
+                cards, carousels, file uploads, modals, quantity controls) with
+                smooth interactions using Framer Motion for a seamless user
+                experience. Improved application stability and performance by
+                resolving TypeScript issues, optimizing component re-renders,
+                and enforcing clean, maintainable architecture suitable for
+                production environments. Designed and developed a fully
+                functional e-commerce website, integrating features like product
+                listings, shopping carts, and responsive layouts to provide a
+                seamless user experience. Movie App Development:
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
+              className="w-full lg:w-1/4">
+              <p className="mb-2 text-md text-center text-stone-400">
+                2023-2024
+              </p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className="w-full max-w-xl lg:w-2/4">
+              <h2 className="mb-2 text-lg font-semibold text-slate-200">
+                3D Product Visualization Platform React Three Fiber
+              </h2>
+
+              <div className="mb-4 text-stone-400">
+                <h3 className="font-medium text-stone-300"></h3>• Drei • GSAP •
+                TypeScript Duration: 2023 Developed an interactive 3D product
+                viewer enabling users to preview products with dynamic color and
+                size variations. Integrated GSAP animations to create smooth
+                transitions and a premium user experience. Optimized rendering
+                performance and structured components for maintainability in a
+                production environment.
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
+              className="w-full lg:w-1/4">
+              <p className="mb-2 text-md text-center text-stone-400"></p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className="w-full max-w-xl lg:w-2/4">
+              <h2 className="mb-2 text-lg font-semibold text-slate-200">
+                Booking & Service Management System React
+              </h2>
+
+              <div className="mb-4 text-stone-400">
+                <h3 className="font-medium text-stone-300"></h3>Implemented
+                booking, service tracking, and summary flows aligned with real
+                business processes. Replaced third-party UI libraries with
+                custom Tailwind/DaisyUI components while maintaining existing
+                logic and design consistency. Built validated forms using Formik
+                and Yup to ensure accurate data collection and improved user
+                experience.
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="w-full mb-12 flex  lg:px-[100px] lg:justify-center lg:ml-[25px] gap-14">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
+              className="w-full lg:w-1/4">
+              <p className="mb-2 text-md text-center text-stone-400"></p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className="w-full max-w-xl lg:w-2/4">
+              <h3 className="mb-2 text-lg font-semibold text-slate-200">
+                UI/UX Design & Development:
+              </h3>
+              <p className="mb-4 text-stone-400">
+                Designed intuitive user interfaces and developed responsive web
+                applications, ensuring accessibility and optimal performance
+                across devices.
+              </p>
+
+              <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
-                  E-Commerce Website: Designed and developed a fully functional
+                  E-Learning Website:
                 </h3>{" "}
-                Designed and developed a fully functional e-commerce website,
-                integrating features like product listings, shopping carts, and
-                responsive layouts to provide a seamless user experience. Movie
-                App Development:
+                Designed and developed a comprehensive e-learning platform,
+                integrating responsive layouts and engaging animations.
               </div>
 
               <div className="mb-4 text-stone-400">
                 <h3 className="font-medium text-stone-300">
-                  Movie App Development:
+                  Real Estate Website Design:{" "}
                 </h3>
-                Built a dynamic movie app with functionality for fetching and
-                displaying movie data from APIs, showcasing interactive features
-                like search and filtering.
+                Designed a real estate website, prioritizing clean layouts and
+                user-friendly features like property listings, search filters,
+                and virtual tours. Focused on delivering a sleek, professional
+                look to meet industry standards while ensuring responsiveness.
+              </div>
+
+              <div className="mb-4 text-stone-400">
+                <h3 className="font-medium text-stone-300">
+                  Craft Village Mobile App:{" "}
+                </h3>
+                Conceptualized and designed a mobile app for Craft Village,
+                inspired by personal experience working in the organization.
+                Created intuitive user flows and visually engaging interfaces to
+                connect artisans with potential customers and showcase their
+                crafts effectively.
+              </div>
+
+              <div className="mb-4 text-stone-400">
+                <h3 className="font-medium text-stone-300">
+                  NGO Website Design:
+                </h3>
+                Designed a fully responsive website for a non-profit NGO,
+                focusing on accessibility and user-friendly navigation to
+                enhance engagement with the {" organization's"} mission. Ensured
+                the design was adaptable across devices, emphasizing clarity and
+                functionality for diverse audiences.
               </div>
 
               <div className="mb-4 text-stone-400">
@@ -330,72 +220,6 @@ const Experience = () => {
                 </h3>
                 Deployed applications on platforms like Vercel, ensuring
                 production-readiness and troubleshooting build issues.
-              </div>
-            </motion.div>
-          </div>
-
-          <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm text-stone-400">2023</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 text-lg font-semibold text-slate-200">
-                UI/UX Design & Development:
-              </h3>
-              <p className="mb-4 text-stone-400">
-                Designed intuitive user interfaces and developed responsive web
-                applications, ensuring accessibility and optimal performance
-                across devices.
-              </p>
-
-              
-
-              <div className="mb-4 text-stone-400">
-                <h3 className="font-medium text-stone-300">
-                E-Learning Website:
-                </h3>{" "}
-                Designed and developed a comprehensive e-learning platform,
-                integrating responsive layouts and engaging animations.
-              </div>
-
-              <div className="mb-4 text-stone-400">
-                <h3 className="font-medium text-stone-300">
-                  Real Estate Website Design:{" "}
-                </h3>
-                Designed a real estate website, prioritizing clean layouts and
-                user-friendly features like property listings, search filters,
-                and virtual tours. Focused on delivering a sleek, professional
-                look to meet industry standards while ensuring responsiveness.
-              </div>
-
-              <div className="mb-4 text-stone-400">
-                <h3 className="font-medium text-stone-300">
-                  Craft Village Mobile App:{" "}
-                </h3>
-                Conceptualized and designed a mobile app for Craft Village,
-                inspired by personal experience working in the organization.
-                Created intuitive user flows and visually engaging interfaces to
-                connect artisans with potential customers and showcase their
-                crafts effectively.
-              </div>
-
-              <div className="mb-4 text-stone-400">
-                <h3 className="font-medium text-stone-300">
-                  NGO Website Design:
-                </h3>
-                Designed a fully responsive website for a non-profit NGO,
-                focusing on accessibility and user-friendly navigation to
-                enhance engagement with the organization's mission. Ensured the
-                design was adaptable across devices, emphasizing clarity and
-                functionality for diverse audiences.
               </div>
             </motion.div>
           </div>

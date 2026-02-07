@@ -59,38 +59,37 @@ const Hero = () => {
             className="flex flex-col items-center lg:items-start mt-10 lg:pl-9">
             <motion.h2
               variants={childVariants}
-              className="pb-2 text-4xl tracking-tighter lg:text-8xl lg:mb-2">
+              className="pb-2 text-4xl lg:text-5xl lg:mb-2 leading-[20px] tracking-[0.4px]">
               Joseph Peniel
             </motion.h2>
             <motion.span
               variants={childVariants}
-              className="bg-gradient-to-r from-stone-300 to-stone-600  bg-clip-text text-3xl tracking-tight text-transparent text-center ">
-              Frontend Developer & UI/UX Designer
+              className="bg-gradient-to-r from-stone-300 to-stone-600  bg-clip-text text-xl  text-transparent text-center tracking-[0.4px]">
+              Frontend Developer
             </motion.span>
             <motion.p
               variants={childVariants}
-              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter sm:text-left">
-              Hello! I’m Joseph Peniel, a dedicated frontend developer with
-              expertise in HTML, CSS, and JavaScript, along with practical
-              experience in React.js. I specialize in creating responsive,
-              user-friendly interfaces that enhance digital experiences. As an
-              intern, I am continuously expanding my knowledge of modern web
-              technologies, including SCSS and GSAP, while working on
-              collaborative projects to transform creative designs into
-              functional realities. My ambition is to contribute to meaningful
-              projects and evolve into a proficient developer who seamlessly
-              combines creativity and functionality. Let’s create something
-              extraordinary together!
+              className=" my-8 text-lg leading-relaxed tracking-tighter sm:text-left tracking-[0.9px]">
+              Hello! I’m Joseph Peniel, a dedicated Frontend Developer with
+              experience building production-ready web applications using React,
+              TypeScript, JavaScript, HTML, and modern CSS frameworks (Tailwind,
+              SCSS). Skilled in component-driven architecture, state management
+              (Zustand, UseContext), API integration, and form validation (Formik, Yup).
+              Proficient in performance optimization, reusable UI systems,
+              animations (GSAP, Framer Motion), accessibility best practices, and cross-browser
+              compatibility. Focused on delivering scalable, user-friendly
+              frontend solutions through effective collaboration and clean,
+              maintainable code.
             </motion.p>
             <motion.a
               initial="intial"
               animate="animate"
-              variants= {buttonVariants(1)}
+              variants={buttonVariants(1)}
               href="/Joseph_Peniel - Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Joseph_Peniel - Resume.pdf"
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
+              className="bg-white text-center rounded py-3  w-[170px] h-[50px] text-md text-stone-800 mt-7">
               {" "}
               Download Resume
             </motion.a>

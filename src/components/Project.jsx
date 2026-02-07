@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import jobsProject from "/assets/images/Screenshot 2024-11-22 191536.png";
 
-import iphoneApp from "../../public/assets/images/IphoneApp.png"
+import iphoneApp from "../../public/assets/images/IphoneApp.png";
 
 import ResistorImg from "/assets/images/Screenshot 2024-11-22 1915361.png";
 import LoremSprint from "/assets/images/ux-LoremSprint.png";
@@ -35,7 +35,7 @@ const Project = () => {
           Frontend
         </motion.div>
         {/* {Projects.map((project, index) => (
-          <div key="index" className="mb-8 flex flex-wrap lg:justify-center">
+          <div key="index" className="mb-8 flex items-center lg:justify-center">
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
@@ -61,19 +61,70 @@ const Project = () => {
       </div>
 
       <div>
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
+            <a href="https://closebuy3.vercel.app/">
+              <img
+                src="/closebuy.jpg"
+                // width={250}
+                // height={250}
+                alt="Project"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
+              />
+            </a>
+          </motion.div>
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-xl lg:w-3/4">
+            <h3 className="mb-2 font-semibold text-2xl">CloseBuy</h3>
+            <p className="mb-4 text-stone-400">
+              Built a full-featured e-commerce platform (Closebuy) with product
+              discovery, detailed product views, cart and checkout flows,
+              dynamic quantity management, and real-time subtotal and pricing
+              calculations. Implemented robust global state management using
+              Zustand to manage cart items, selected products, quantities,
+              discounts, persistence across pages and reloads, and synchronized
+              UI updates. Developed reusable, accessible UI components (product
+              cards, carousels, file uploads, modals, quantity controls) with
+              smooth interactions using Framer Motion for a seamless user
+              experience.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              ReactJS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Typscript
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              TailwindCSS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              Framer Motion
+            </span>
+            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              2024-present
+            </span>
+          </motion.div>
+        </div>
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1 }}
+            className="">
             <a href="https://apple-app-clone-khaki.vercel.app/">
               <img
                 src={iphoneApp}
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -112,19 +163,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             <a href="https://work-sesson-gsap.vercel.app/">
               <img
                 src={workSession}
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -139,7 +190,7 @@ const Project = () => {
             <p className="mb-4 text-stone-400">
               Interactive project showcasing our work through smooth scroll
               animations using GSAP and ScrollTrigger, featuring dynamic image
-              transitions, pinning effects, and a 'Book a demo' call-to-action
+              transitions, pinning effects, and a {"Book a demo"} call-to-action
               for an engaging user experience.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
@@ -154,19 +205,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             <a href="https://shopping-website-bex6oe2np-joseph-peniels-projects.vercel.app/">
               <img
                 src={ShoppingWeb}
                 width={250}
                 height={250}
                 alt="Project 1"
-                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -194,19 +245,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             <a href="https://dashboard-a6bfduc90-joseph-peniels-projects.vercel.app/">
               <img
                 src={BankDashboard}
                 width={250}
                 height={250}
                 alt="Project 1"
-                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -235,12 +286,12 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             {" "}
             <a href="https://dark-light-screen-akvq8gn4l-joseph-peniels-projects.vercel.app/">
               <img
@@ -248,7 +299,7 @@ const Project = () => {
                 // width={250}
                 // height={250}
                 alt="Project "
-                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -276,19 +327,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             <a href="https://job-ou4d3u4f9-joseph-peniels-projects.vercel.app/">
               <img
                 src={jobsProject}
                 width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -314,19 +365,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             <a href="#">
               <img
                 src={LoremSprint}
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full h-[220px] md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -352,17 +403,17 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="">
             <a href="https://resistor-calculator-p8ktrbtzj-joseph-peniels-projects.vercel.app/">
               <img
                 src={ResistorImg}
                 alt="Project 1"
-                className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -390,20 +441,21 @@ const Project = () => {
 
       {/* _____________ui/ux_________________________ */}
       <div>
-        <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: -100 }}
-          transition={{ duration: 0.5 }}
-          className="my-10 text-center text-3xl  text-stone-400">
-          UI/UX Design
-        </motion.div>
-
-        <div className="w-full mb-16 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
+            className="my-10 text-center text-3xl  text-stone-400 lg:ml-14">
+            UI/UX Design
+          </motion.div>
+        </div>
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
+            className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded">
             <Lorem />
           </motion.div>
           <motion.div
@@ -425,19 +477,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6 ">
+            className=" ">
             <a href="#">
               <img
                 src={NGO}
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full md:w-full md:aspect-square lg:h-[220px] lg:w-[800px] mb-6 h-[200px] rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -450,9 +502,9 @@ const Project = () => {
             <p className="mb-4 text-stone-400">
               Designed a fully responsive website for a non-profit NGO, focusing
               on accessibility and user-friendly navigation to enhance
-              engagement with the organization's mission. Ensured the design was
-              adaptable across devices, emphasizing clarity and functionality
-              for diverse audiences.
+              engagement with the {"organization's"} mission. Ensured the design
+              was adaptable across devices, emphasizing clarity and
+              functionality for diverse audiences.
             </p>
             <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
@@ -460,12 +512,12 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full h-auto lg:w-2/6">
+            className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded">
             <Craftsvillage />
           </motion.div>
           <motion.div
@@ -486,19 +538,19 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="w-full mb-12 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px] ">
+        <div className="w-full mb-12 flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-2/6 ">
+            className=" ">
             <a href="">
               <img
                 src={MonsterApp}
                 // width={250}
                 // height={250}
                 alt="Project"
-                className="w-full md:w-full md:aspect-square lg:h-[220px] lg:w-[800px] mb-6 h-[200px] rounded"
+                className="w-full h-[220px] md:w-full md:aspect-square object-cover lg:h-[300px] lg:w-[500px] mb-6 rounded"
               />
             </a>
           </motion.div>
@@ -519,70 +571,6 @@ const Project = () => {
             </span>
           </motion.div>
         </div>
-
-        {/* <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
-            <img
-              src={jobsProject}
-              width={250}
-              // height={250}
-              alt="Project"
-              className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
-            />
-          </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Jobs Website</h3>
-            <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
-            </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              TailwindCSS
-            </span>
-          </motion.div>
-        </div>
-
-        <div className="w-full mb-8 flex flex-wrap lg:px-[100px] lg:justify-between lg:ml-[67px]">
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
-            className="w-full lg:w-2/6">
-            <img
-              src={ResistorImg}
-              alt="Project 1"
-              className="w-full h-auto md:w-full md:aspect-square lg:h-[200px] lg:w-[800px] mb-6 rounded"
-            />
-          </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4">
-            <h3 className="mb-2 font-semibold text-2xl">Resistor Calculator</h3>
-            <p className="mb-4 text-stone-400">
-              This is a description for Project 1. It highlights the main
-              features and purpose of the project.
-            </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              JavaScript
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
-          </motion.div>
-        </div> */}
       </div>
     </div>
   );
