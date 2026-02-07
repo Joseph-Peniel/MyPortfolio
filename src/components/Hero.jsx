@@ -36,7 +36,7 @@ const childVariants = {
 const Hero = () => {
   return (
     <div className="pb-4 lg:mb-36 ">
-      <div className="flex flex-wrap lg:flex-row-reverse items-center">
+      <div className="lg:flex place-items-center items-center">
         <div className="w-[600px] lg:w-1/2">
           <div className="flex justify-center lg:ml-[40px] md:items-center">
             <motion.img

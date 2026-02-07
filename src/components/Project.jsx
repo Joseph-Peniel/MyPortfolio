@@ -95,21 +95,23 @@ const Project = () => {
               smooth interactions using Framer Motion for a seamless user
               experience.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Typscript
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              TailwindCSS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Framer Motion
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              2024-present
-            </span>
+            <div className="">
+              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                ReactJS
+              </span>
+              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                Typscript
+              </span>
+              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                TailwindCSS
+              </span>
+              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                Framer Motion
+              </span>
+              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                2024-present
+              </span>
+            </div>
           </motion.div>
         </div>
         <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
