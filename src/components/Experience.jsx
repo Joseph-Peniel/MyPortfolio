@@ -26,7 +26,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-2/4">
+              className="w-full  lg:w-2/4">
               <h2 className="mb-2 text-lg font-semibold text-slate-200">
                 E-Commerce Website: Designed and developed a fully functional
               </h2>
@@ -68,7 +68,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-2/4">
+              className="w-full  lg:w-2/4">
               <h2 className="mb-2 text-lg font-semibold text-slate-200">
                 3D Product Visualization Platform React Three Fiber
               </h2>
@@ -97,7 +97,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-2/4">
+              className="w-full  lg:w-2/4">
               <h2 className="mb-2 text-lg font-semibold text-slate-200">
                 Booking & Service Management System React
               </h2>
@@ -126,7 +126,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-2/4">
+              className="w-full  lg:w-2/4">
               <h3 className="mb-2 text-lg font-semibold text-slate-200">
                 UI/UX Design & Development:
               </h3>

@@ -35,12 +35,12 @@ const childVariants = {
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-36 ">
-      <div className="lg:flex place-items-center items-center">
-        <div className="w-[600px] lg:w-1/2">
+    <div className="lg:mb-36 ">
+      <div className="lg:flex place-items-center items-center lg:flex-row-reverse">
+        <div className="w-[500px] lg:w-1/2">
           <div className="flex justify-center lg:ml-[40px] md:items-center">
             <motion.img
-              className="w-[500px] border border-stone-900 rounded-3xl"
+              className="lg:w-[500px] border border-stone-900 rounded-3xl"
               src={profilePhoto}
               alt="Joseph Peniel"
               width={650}

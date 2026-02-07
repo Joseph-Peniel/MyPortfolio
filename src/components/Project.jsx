@@ -95,32 +95,33 @@ const Project = () => {
               smooth interactions using Framer Motion for a seamless user
               experience.
             </p>
-            <div className="">
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <div className="space-x-4 flex flex-wrap">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
                 ReactJS
               </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
                 Typscript
               </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
                 TailwindCSS
               </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
                 Framer Motion
               </span>
-              <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
                 2024-present
               </span>
             </div>
           </motion.div>
         </div>
+
         <div className="w-full mb-12 lg:flex items-center lg:px-[100px] lg:justify-between lg:ml-[25px] lg:gap-14">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="">
-            <a href="https://apple-app-clone-khaki.vercel.app/">
+            <a href="https://a/pple-app-clone-khaki.vercel.app/">
               <img
                 src={iphoneApp}
                 // width={250}
@@ -150,18 +151,20 @@ const Project = () => {
               lightformers for realistic lighting, contributing to a visually
               captivating experience.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              TailwindCSS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              GSAP
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              Threejs
-            </span>
+            <div className="space-x-4 flex flex-wrap">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                ReactJS
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                TailwindCSS
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                GSAP
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                Threejs
+              </span>
+            </div>
           </motion.div>
         </div>
 
@@ -195,15 +198,17 @@ const Project = () => {
               transitions, pinning effects, and a {"Book a demo"} call-to-action
               for an engaging user experience.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              GSAP
-            </span>
+            <div className="space-x-4 flex flex-wrap">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                ReactJS
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                CSS
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                GSAP
+              </span>
+            </div>
           </motion.div>
         </div>
 
@@ -238,12 +243,15 @@ const Project = () => {
               hamburger menu for easy navigation. JavaScript was used to handle
               menu interactions, enhancing the overall shopping experience.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              JavaScript
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
+
+            <div className="space-x-4 flex flex-wrap">
+              <span className="mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                JavaScript
+              </span>
+              <span className="mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                CSS
+              </span>
+            </div>
           </motion.div>
         </div>
 
@@ -279,12 +287,14 @@ const Project = () => {
               architecture and a focus on state management using React Context
               and Reducer for toggling the sidebar.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              ReactJS
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
+            <div className="space-x-4 flex flex-wrap">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                ReactJS
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                CSS
+              </span>
+            </div>
           </motion.div>
         </div>
 
@@ -317,15 +327,18 @@ const Project = () => {
               and a clean navigation menu built using ReactJS, CSS, and
               PropTypes for type safety.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              HTML
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              JavaScript
-            </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
-              CSS
-            </span>
+
+            <div className="space-x-4 flex flex-wrap">
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                HTML
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                JavaScript
+              </span>
+              <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+                CSS
+              </span>
+            </div>
           </motion.div>
         </div>
 
@@ -358,12 +371,14 @@ const Project = () => {
               The project emphasizes efficient data fetching, dynamic UI
               updates, and responsive design.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <div className="space-x-4 flex flex-wrap">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               ReactJS
             </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               TailwindCSS
-            </span>
+              </span>
+              </div>
           </motion.div>
         </div>
 
@@ -396,12 +411,14 @@ const Project = () => {
               connect artisans with potential customers and showcase their
               crafts effectively.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <div className="space-x-4 flex flex-wrap">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               ReactJS
             </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               TailwindCSS
-            </span>
+              </span>
+              </div>
           </motion.div>
         </div>
 
@@ -431,12 +448,14 @@ const Project = () => {
               calculate resistance values with precision, including tolerance
               for enhanced accuracy and educational insights.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <div className="space-x-4 flex flex-wrap">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               JavaScript
             </span>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               CSS
-            </span>
+              </span>
+              </div>
           </motion.div>
         </div>
       </div>
@@ -473,7 +492,7 @@ const Project = () => {
               using Figma, ensuring an engaging and user-friendly learning
               experience.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
           </motion.div>
@@ -534,7 +553,7 @@ const Project = () => {
               This is a description for Project 1. It highlights the main
               features and purpose of the project.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
           </motion.div>
@@ -568,7 +587,7 @@ const Project = () => {
               test, enabling users to preview and customize car colors in-app
               for a personalized shopping experience.
             </p>
-            <span className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
+            <span className=" mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300">
               Figma
             </span>
           </motion.div>
